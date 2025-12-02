@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/.............git'
+git branch: 'main', url: 'https://github.com/fatimadhahbi821-ctrl/tp3-ci-tests'
 }
 }
 stage('Run .NET tests') {
